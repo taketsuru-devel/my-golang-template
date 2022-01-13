@@ -1,0 +1,4 @@
+nmap <silent> gom :Dispatch make -f scripts/Makefile build-linux<CR>
+nmap <silent> god :Dispatch bash deployments/docker_push.sh<CR>
+nmap <silent> got :TestFile<CR>
+nmap <silent> gor :GoRun<CR>
